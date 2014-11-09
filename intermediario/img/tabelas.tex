@@ -1,0 +1,28 @@
+\documentclass[tikz]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz-uml}
+\usepackage[pdfpagelayout=SinglePage]{hyperref}
+
+\begin{document}
+
+\begin{tikzpicture}
+	\umlclass[x=0,y=0]{pessoas}{
+		id \\
+		nome \\
+		sobrenome \\
+		email \\
+		\color{blue}{cidade\_id} \\
+		criado\_em \\
+	}{}
+	\umlclass[x=5,y=0]{cidades}{
+		id \\
+		cidade \\
+		uf \\
+	}{}
+	\draw[very thick] (1.1,-.7) to[out=0,in=180] (cidades);
+\end{tikzpicture}
+
+\end{document}
+
+below = of n1.south west,anchor=north west
