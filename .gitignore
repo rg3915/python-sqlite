@@ -21,6 +21,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+bin/
+include/
+local/
+share/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -52,3 +56,5 @@ docs/_build/
 
 # PyBuilder
 target/
+
+*.db
