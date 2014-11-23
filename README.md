@@ -3,11 +3,11 @@ python-sqlite
 
 Conteúdos sobre a manipulação de banco de dados SQLite3 em Python.
 
-Leia o artigo [Gerenciando banco de dados SQLite3 com Python - Parte 1][0] e *Parte 2*.
+Leia o artigo [Gerenciando banco de dados SQLite3 com Python - Parte 1][0] e [Parte 2][4].
 
 ## Intermediario
 
-A *Parte 2* ensina como manipular banco de dados SQLite utilizando várias *classes* num **único** arquivo python, no caso estou usando o **Python3**. Mas funciona também no Python 2x.
+A [parte 2][4] ensina como manipular banco de dados SQLite utilizando várias *classes* num **único** arquivo python, no caso estou usando o **Python3**. Mas funciona também no Python 2x.
 
 Aqui usamos recursos mais sofisticados, um script para **gerar valores randômicos** para popular o banco e importação de dados externos em **csv**.
 
@@ -59,7 +59,7 @@ O prompt vai ficar assim:
 
 ### Rodando a aplicação
 
-Lendo a *Parte 2* do artigo você verá que para rodar a aplicação basta executar
+Lendo a [parte 2][4] do artigo você verá que para rodar a aplicação basta executar
 
 ``$ python3 manager_db.py``
 
@@ -68,3 +68,4 @@ Lendo a *Parte 2* do artigo você verá que para rodar a aplicação basta execu
 [0]: http://pythonclub.com.br/gerenciando-banco-dados-sqlite3-python-parte1.html
 [2]: https://github.com/treyhunner/names
 [3]: https://pypi.python.org/pypi/rstr/2.1.3
+[4]: http://pythonclub.com.br/gerenciando-banco-dados-sqlite3-python-parte2.html
