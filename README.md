@@ -19,7 +19,7 @@ Não é obrigatório, mas como eu tenho no meu SO o Python 3.4, tive que criar u
 
 Faça um clone deste repositório
 
-``$ git clone git@github.com:rg3915/python-sqlite.git``
+``$ git clone https://github.com/rg3915/python-sqlite.git``
 
 Crie o virtualenv com o nome **python-sqlite**
 
